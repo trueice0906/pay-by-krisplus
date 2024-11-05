@@ -4,7 +4,6 @@ import Home from "./routes/home/home.component";
 import Shop from './routes/shop/shop.component';
 import Checkout from './routes/checkout/checkout.component';
 import { Suspense } from "react";
-// import Navigation from './routes/navigation/navigation.component';
 
 const router = createBrowserRouter([
   {
