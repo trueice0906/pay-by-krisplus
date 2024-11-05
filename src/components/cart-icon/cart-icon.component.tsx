@@ -14,7 +14,7 @@ const CartIcon = () => {
   return (
     <>
       <div className='cart-icon-container' onClick={toggleIsCartOpen}>
-        <img src={ShoppingIcon} alt="" />
+        <img className='shopping-icon' src={ShoppingIcon} alt="" />
         <span className='item-count'>{cartCount}</span>
       </div>
       {isCartOpen && <CartDropdown />}
