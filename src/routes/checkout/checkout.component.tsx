@@ -34,6 +34,7 @@ export default function Checkout() {
           </html>
         `);
         paymentWindow.document.close();
+
       }
     } catch (error) {
       console.error("Failed to generate QR code", error);
